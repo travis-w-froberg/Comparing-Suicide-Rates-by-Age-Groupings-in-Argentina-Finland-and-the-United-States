@@ -10,11 +10,11 @@ View(suicide)
 attach(suicide)
 names(suicide)
 
-class(ï..country)
+class(Ã¯..country)
 suicide2 <- suicide[c(589:960, 8739:9086, 26849:27220),]
 View(suicide2)
 
-suicide3 <- suicide2[ , c("ï..country", "age", "suicides.100k.pop")]
+suicide3 <- suicide2[ , c("Ã¯..country", "age", "suicides.100k.pop")]
 View(suicide3)
 write.csv(suicide3, "C:\\Users\\Travis Froberg\\Documents\\AA_MTU Graduate School\\suicide.csv")
 
